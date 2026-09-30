@@ -1,6 +1,6 @@
 expense_list = []
 expense = None
-#Ask user to enter expense until they answer 0 to indinicate they are finsihed
+#Ask user to enter expense until they answer 0 to indinicate they are done
 while expense != 0:
     expense = float(input("Enter an expense (or type '0' to finish): "))
 #make sure the expenses entered are valid
