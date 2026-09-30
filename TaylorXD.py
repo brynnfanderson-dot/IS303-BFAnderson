@@ -50,4 +50,36 @@
 #for i in range(1,4):
     #for j in range(1, 11):
         #print(f"Day {i}: Appointment {j}")
+        
+        
+        
+        
+        
+        
+#odd number checker 
+numbers = [14, 2, 3, 45, 5]
+
+for num in numbers:
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+#defining a function
+
+def is_odd(numero):
+    odd = True
+
+    if numero %2 == 0:
+        odd = False
+    else:
+        odd = True
+
+    return odd
+#combining number checker and number checker
+for num in numbers:
+    if is_odd(num):
+        print(f"{num} is odd")
+    else:
+        print(f"{num} is even")
 
