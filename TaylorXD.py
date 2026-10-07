@@ -57,29 +57,42 @@
         
         
 #odd number checker 
-numbers = [14, 2, 3, 45, 5]
+#numbers = [14, 2, 3, 45, 5]
 
-for num in numbers:
-    if num % 2 == 0:
-        print("Even")
-    else:
-        print("Odd")
+#for num in numbers:
+    #if num % 2 == 0:
+        #print("Even")
+    #else:
+        #print("Odd")
 
 #defining a function
 
-def is_odd(numero):
-    odd = True
+#def is_odd(numero):
+    #odd = True
 
-    if numero %2 == 0:
-        odd = False
-    else:
-        odd = True
+    #if numero %2 == 0:
+     #   odd = False
+    #else:
+     #   odd = True
 
-    return odd
+    #return odd
 #combining number checker and number checker
-for num in numbers:
-    if is_odd(num):
-        print(f"{num} is odd")
-    else:
-        print(f"{num} is even")
+#for num in numbers:
+ #   if is_odd(num):
+  #      print(f"{num} is odd")
+   # else:
+    #    print(f"{num} is even")
 
+#10/5/2026
+number = [11, 25, -2, 7, 18]
+#range is start stop step
+#this will print 0, 1, 2, 3, 4, just the range
+for i in range (0,5):
+    print(i)
+
+for i in range(5):
+    print(i+100)
+for i in range(5):
+    print(number[i])
+for num in number:
+    print(num)
