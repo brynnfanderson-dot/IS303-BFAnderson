@@ -84,15 +84,30 @@
     #    print(f"{num} is even")
 
 #10/5/2026
-number = [11, 25, -2, 7, 18]
+#number = [11, 25, -2, 7, 18]
 #range is start stop step
 #this will print 0, 1, 2, 3, 4, just the range
-for i in range (0,5):
-    print(i)
+#for i in range (0,5):
+ #   print(i)
 
-for i in range(5):
-    print(i+100)
-for i in range(5):
-    print(number[i])
-for num in number:
-    print(num)
+#for i in range(5):
+ #   print(i+100)
+#for i in range(5):
+ #   print(number[i])
+#for num in number:
+ #   print(num)
+
+
+
+#10/14/2026
+#has_error: True
+#while has_error:
+ #   try: 
+  #      number = int(input("Enter a number: "))
+   #     print(number)
+
+    #    has_error = False
+    #except:
+     #   print("Invalid number. Plese try again.")
+
+#from (filename) import (function)
