@@ -111,3 +111,23 @@
      #   print("Invalid number. Plese try again.")
 
 #from (filename) import (function)
+
+11//2/2026
+#objects are immutable or mutable (cannot change or can change)
+#what we store in variables is not the actual value, its the address to the value
+#.append adds one item at a time, to the end of a list
+#random_list = []
+#random_list.extend(["yadda", "babba", "dodda"])
+#extend lets you add multiple at a time
+#print(random_list[-1]) this would print the last item in the list  
+#stack and queue - stack uses lifo(last in, first out), queue uses fifo
+#a list uses a stack, .pop removes the last item from the list. You can customize by doing .pop(#) <-- insert index number
+#.remove, instead of passing the index pass the value you want to remove 
+#random_list.remove("babba")
+#random_list.append("yadda")
+#print(random_list.count("yadda"))
+#if "yadda" in random_list:
+  #  print("Found the word!")
+#random_list.sort() #puts it in alphabletical or numeric order 
+#a tuple is a list that cannot change once it is first set 
+#a set finds the overlap in a venn diagram (or the absence of overlap)
